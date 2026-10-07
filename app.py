@@ -11,7 +11,7 @@ st.title("My First Chatbot")
 
 # 1. Initialize the Gemini Model
 model = ChatGoogleGenerativeAI(
-    model="gemini-3.8-flash",  # Using the stable Gemini 2.5 Flash model
+    model="gemini-3.5-flash",  # Using the stable Gemini 2.5 Flash model
     temperature=1.0,
     max_tokens=None,
     timeout=None,
